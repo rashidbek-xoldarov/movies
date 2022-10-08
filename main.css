@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #ccffee;
+}
+
+.container {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.main-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.movies-template {
+}
+
+.movies-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #e6ccff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.movies-title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.movies-order {
+  font-weight: 500;
+  font-size: 18px;
+}
